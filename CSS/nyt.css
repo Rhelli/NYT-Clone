@@ -1,0 +1,18 @@
+html {
+  background-color: #FFFFFF;
+  font-size: 16px;
+}
+
+body {
+    font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+#a {
+  font-family: 'NYTImperial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
