@@ -18,6 +18,10 @@ body {
     margin: 0;
     padding: 0;
 }
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
 
 /* MAIN */
 main {
@@ -82,7 +86,7 @@ header {
   figcaption {
     display: block;
     max-width: 900px;
-    padding: 9px 20px 0;
+    padding: 9px 20px 0px 0px;
 
   }
   figcaption > span:first-child {
@@ -109,3 +113,68 @@ header {
       color: #888;
       font-size: 0.8em;
     }
+    #header-end {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+      overflow: auto;
+    }
+      #author {
+        display: block;
+        font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+        font-weight: 700; 
+        font-style: normal;
+        font-size: 0.95em;
+        margin: 38px 0px 22px 0px;
+      }
+        #author a {
+          text-decoration: none;
+          color: #333;
+          padding-bottom: 20px;
+          text-decoration-line: underline;
+          text-decoration-color: #CCC;
+        }
+      
+      #date-time-buttons {
+        display: block;
+
+      }
+        #date-time-buttons li time {
+          font-family:'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 0.8em;
+        }
+        #art-start-buttons {
+          float: right;
+          position: relative;
+          bottom: 20px;
+        }
+          #art-start-buttons li {
+            float: left;
+            padding: 0px 12px;
+            border: none;
+          }
+          #art-start-buttons svg {
+            display: inline-block;
+            vertical-align: middle;
+            width: 28px;
+            height: 28px;
+            border-radius: 100%;
+            background-color: #EEE;
+            border: 1px solid #EEE;
+            padding: 5px;
+            overflow: hidden;
+            color: black;
+            font-size: 100%;
+            text-size-adjust: 100%;
+          }
+          #art-start-buttons button {
+            border: none;
+          }
+          #art-start-buttons:last-child {
+            
+          }
+        
+
+      
