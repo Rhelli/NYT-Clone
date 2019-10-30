@@ -66,7 +66,7 @@ a {
 /* sub menu box */
 #menu ul li.submenu ul {
   position: absolute;
-  left: 190px;
+  left: 185px;
   width: 200px;
   top: -10px;
   border-style: solid;
@@ -79,23 +79,35 @@ a {
   background: rgb(255, 255, 255);
 }
 
-#menu ul li.submenu ul:after {
+#menu ul li.submenu ul::before {
 	content: "";
 	position: absolute;
 	left: 0px;
-	top: 20px;
+	top: 25px;
 	width: 0;
 	height: 0;
-	border: 20px solid transparent;
-  border-right-color: rgb(255, 255, 255);
-
-
-  box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,1);
-
+	border: 13px solid transparent;
+  border-right-color: rgb(204, 204, 204);
   border-left: 0;
   border-style: solid;
-	margin-top: -20px;
-  margin-left: -20px;
+	margin-top: -13px;
+  margin-left: -13px;
+  z-index: 1000000170;
+}
+
+#menu ul li.submenu ul::after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 0;
+	height: 0;
+	border: 12px solid transparent;
+  border-right-color: rgb(255, 255, 255);
+  border-left: 0;
+  border-style: solid;
+	margin-top: -12px;
+  margin-left: -12px;
   z-index: 1000000170;
 }
 
