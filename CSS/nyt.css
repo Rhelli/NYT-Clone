@@ -68,8 +68,7 @@ a {
   position: absolute;
   left: 190px;
   width: 200px;
-  top: 0;
-  overflow: hidden;
+  top: -10px;
   border-style: solid;
   border-radius: 3px;
   border-width: 1px;
@@ -78,24 +77,26 @@ a {
   border-color: rgb(204, 204, 204);
   box-shadow: rgba(0, 0, 0, 0.09) -1px 4px 6px;
   background: rgb(255, 255, 255);
-  
-  /* background:red; */
 }
 
-menu ul li.submenu ul:after {
-	content: '';
+#menu ul li.submenu ul:after {
+	content: "";
 	position: absolute;
-	left: 0;
-	top: 50%;
+	left: 0px;
+	top: 20px;
 	width: 0;
 	height: 0;
-	border: 24px solid transparent;
-	border-right-color: red;
-	border-left: 0;
-	margin-top: -24px;
-  margin-left: -24px;
-  z-index: 100;
+	border: 20px solid transparent;
+  border-right-color: rgb(255, 255, 255);
 
+
+  box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,1);
+
+  border-left: 0;
+  border-style: solid;
+	margin-top: -20px;
+  margin-left: -20px;
+  z-index: 1000000170;
 }
 
 #menu ul li.submenu:hover ul {
