@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     color: #333333;
     width: 100vw;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ header {
   max-width: 600px;
   height: auto;
   position: relative;
-  margin: 1.875rem auto 1rem auto;
+  margin: 2.35rem auto 1rem auto;
 }
 #art-title > h1 span:first-child {
   position: absolute;
@@ -52,23 +52,24 @@ header {
 #art-title > h1:last-child {
   display: inline-block;
   position: relative;
-  right: 110px;
-  width: 400px;
-  font-size: 41px;
+  left: 108px;
+  width: 387px;
+  font-size: 40px;
   font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, Serif;
   font-weight: 700; 
   font-style: italic;
   color: #121212;
   line-height: 1.2;
-  letter-spacing: -0.5px;
-  text-align: left;
+  letter-spacing: -0.3px;
+  word-spacing: -1px;
 }
 
 .landing-container {
-  width: 100vw;
+  max-width: 1200px;
   height: auto;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
   .landing-container > img {
     width: 100vw;
@@ -77,16 +78,34 @@ header {
     vertical-align: top;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.9rem;
+  }
+  figcaption {
+    display: block;
+    max-width: 900px;
+    padding: 9px 20px 0;
+
   }
   figcaption > span:first-child {
     font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, Serif;
+    font-size: 15px;
     font-weight: 400;
     font-style: normal;
     color: #666666;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
-    .figcaption-hidden {
+    #figcaption-hidden {
       position: absolute;
-      left: 0;
-      visibility: hidden;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+    }
+    figcaption > span:last-child > span:last-child {
+      font-family: inherit;
+      font-weight: inherit;
+      font-style: inherit;
+      color: #888;
+      font-size: 0.8em;
     }
