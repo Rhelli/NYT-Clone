@@ -10,7 +10,7 @@ body {
 }
 
 
-#a {
+a {
   font-family: 'NYTImperial';
   font-weight: 400;
   font-style: normal;
@@ -18,31 +18,29 @@ body {
 }
 
 #menu {
-  width: 150px;
+  width: 214px;
   height: 100%;
-  background: #424242;
-  color: white;
+  
   float: left;
 }
 
 #menu ul {
   margin: 0;
-  padding: 0;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  padding: 10px 18px;
+  font-weight: bold;
+  
 }
 
 #menu li {
   list-style: none;
-  font-size: 20px;
-  padding: 15px 20px;
+  font-size: 15px;
+  padding: 5px 20px;
   cursor: pointer;
-}
-
-#menu li:hover {
-  background-color: #90CAF9;
-}
-
-#menu li.active {
-  background-color: #2196F3;
 }
 
 #menu ul li ul {
@@ -54,11 +52,10 @@ body {
 }
 
 #menu ul li.submenu ul {
-    position: absolute;
-    left: 150px;
-    width: 200px;
-    top: 0;
-    background: #333
+  position: absolute;
+  left: 214px;
+  width: 200px;
+  top: 0;
 }
 
 #menu ul li.submenu:hover ul {
