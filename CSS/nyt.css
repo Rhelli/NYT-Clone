@@ -18,29 +18,41 @@ a {
 }
 
 #menu {
-  width: 214px;
+  width: 190px;
   height: 100%;
   
   float: left;
 }
 
+/* menu box */
 #menu ul {
+  box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
   margin: 0;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+  font-weight: 700; 
+  font-style: normal;
   border-radius: 3px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(204, 204, 204);
-  border-image: initial;
-  padding: 10px 1px;
-  font-weight: bold;
-  
+  border-right: 1px solid rgb(204, 204, 204);
+  z-index: 1;
 }
 
 #menu li {
   list-style: none;
-  font-size: 15px;
   padding: 5px 20px;
   cursor: pointer;
+}
+
+#menu svg {
+  transform: rotate(270deg);
+  display: block;
+  float: right;
+  height: 8px;
+  margin-top: -17px;
+  transform: rotate(270deg);
+  width: 6px;
 }
 
 #menu ul li ul {
@@ -48,14 +60,37 @@ a {
 }
 
 #menu ul li.submenu {
-  position: relative
+  position: relative;
 }
 
+/* sub menu box */
 #menu ul li.submenu ul {
   position: absolute;
-  left: 214px;
+  left: 190px;
   width: 200px;
   top: 0;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  box-shadow: rgba(0, 0, 0, 0.09) -1px 4px 6px;
+  /* background:red; */
+}
+
+menu ul li.submenu ul:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 24px solid transparent;
+	border-right-color: red;
+	border-left: 0;
+	margin-top: -24px;
+  margin-left: -24px;
+  z-index: 100;
+
 }
 
 #menu ul li.submenu:hover ul {
