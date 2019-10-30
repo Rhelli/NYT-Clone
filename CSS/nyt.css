@@ -16,3 +16,51 @@ body {
   font-style: normal;
   font-size: 70px;
 }
+
+#menu {
+  width: 150px;
+  height: 100%;
+  background: #424242;
+  color: white;
+  float: left;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  list-style: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+#menu li:hover {
+  background-color: #90CAF9;
+}
+
+#menu li.active {
+  background-color: #2196F3;
+}
+
+#menu ul li ul {
+  display: none;
+}
+
+#menu ul li.submenu {
+  position: relative
+}
+
+#menu ul li.submenu ul {
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    top: 0;
+    background: #333
+}
+
+#menu ul li.submenu:hover ul {
+  display: inline-block
+}
