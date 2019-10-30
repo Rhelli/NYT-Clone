@@ -1,18 +1,58 @@
 html {
   background-color: #FFFFFF;
   font-size: 16px;
+  box-sizing: border-box;
+  width: 100vw;
+  height: auto;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
     font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     color: #333333;
+    width: 100vw;
 }
 
-
-#a {
-  font-family: 'NYTImperial';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70px;
+/* MAIN */
+main {
+  width: 100vw;
+  height: auto;
 }
+
+/* HEADER */
+header {
+  display: block;
+  max-width: 100%;
+}
+#art-title {
+  max-width: 383.76px;
+  height: auto;
+  position: relative;
+  margin: 1.9rem auto 1rem auto;
+  
+}
+#art-title > h1 {
+  font-size: 40px;
+  font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, Serif;
+  font-weight: 700; 
+  font-style: italic;
+  color: #121212;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.landing-container {
+  width: 100vw;
+  height: auto;
+}
+  .landing-container > img {
+    max-width: 1200px;
+    height: auto;
+    vertical-align: top;
+  }
+    .figcaption-hidden {
+    
+    }
