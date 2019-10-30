@@ -31,7 +31,7 @@ a {
   border-style: solid;
   border-color: rgb(204, 204, 204);
   border-image: initial;
-  padding: 10px 18px;
+  padding: 10px 1px;
   font-weight: bold;
   
 }
@@ -60,4 +60,8 @@ a {
 
 #menu ul li.submenu:hover ul {
   display: inline-block
+}
+
+#menu ul li.menu-separator {
+  border-bottom: 1px solid rgb(204, 204, 204);
 }
