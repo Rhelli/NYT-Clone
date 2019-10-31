@@ -6,7 +6,9 @@ html {
   height: auto;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -225,7 +227,8 @@ button.share-arrow {
 }
 
 /* Hover effect over buttons */
-.share > svg:hover,button.share-arrow:hover {
+.share > svg:hover,
+button.share-arrow:hover {
   background-color: transparent;
   border: 1px solid #ccc !important;
 }
