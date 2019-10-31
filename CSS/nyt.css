@@ -9,68 +9,77 @@ body {
     color: #333333;
 }
 
-
 .navbar-top-main {
   width: 100%;
   position: fixed;
-  margin: 0;
-  padding: 0;
-  height: 43px;
+  margin: 0 auto;
+  padding: 5px;
+  height: 32px;
+  border-bottom: 0;
   border-bottom: 1px solid #e2e2e2;
 }
 
 .nav {
   display: inline-block;
-  width: calc(100%/3);
-  height: 43px;
-}
-
-.nav img {
-  height: 16px; 
-  padding: 10px;
+  width: calc(98%/3);
+  height: 42px;
 }
 
 .nav a {
-  padding: 10px;
   font-size: 14.25px;
   font-weight: 700;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
   text-decoration: none;
+  text-align: center;
   color: black;
 }
 
 .ntm-left {
   position: relative;
-  width: 33%;
   float: left;
-  
+  padding-left: 3px;
+}
+
+.ntm-left svg {
+  width: 16px;
+  padding-right: 22px;
 }
 
 .ntm-center {
   position: relative;
-  width: 33%;
   float: left;
+  text-align: center;
 }
 
-.ntm-center img {
+.ntm-center svg {
   width: 195px;
   height: 26.484px;
 }
 
 .ntm-right {
   position: relative;
-  width: 33%;
-  float: left;
+  text-align: right;
 }
 
 .ntm-right button {
-  white-space: nowrap;
-  vertical-align: middle;
   background-color: #567b95;
   border: 1px solid #326891;
   color: #fff;
   font-size: 11px;
   line-height: 30px;
   font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ntm-right button:hover {
+  background-color: #366586;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 30px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
 }
