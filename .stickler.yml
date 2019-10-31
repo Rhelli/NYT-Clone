@@ -1,5 +1,7 @@
 linters:
-  csslint: {  }
-files:
+  stylelint:
+    config: 'stylelint.config.js'
+
+files: 
   ignore:
-    - 'bower_components/*'
+    - 'CSS/normalize.css'
