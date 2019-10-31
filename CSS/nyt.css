@@ -6,7 +6,7 @@ html {
   height: auto;
 }
 
-*, *::before, *::after {
+*,*::before,*::after {
   box-sizing: inherit;
 }
 
@@ -106,7 +106,7 @@ figcaption {
 }
 
 /* Image Main Blurb */
-figcaption span:first-child {
+.img-blurb {
   font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, Serif;
   font-size: 0.95em;
   font-weight: 400;
@@ -225,8 +225,7 @@ button.share-arrow {
 }
 
 /* Hover effect over buttons */
-.share > svg:hover, 
-button.share-arrow:hover {
+.share > svg:hover,button.share-arrow:hover {
   background-color: transparent;
   border: 1px solid #ccc !important;
 }
