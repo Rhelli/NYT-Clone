@@ -158,6 +158,19 @@ ul {
   color: black;
 }
 
+.navbar-top-main {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 100;
+  padding: 0;
+  height: 43px;
+  border: none;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+}
+
 .ntm-left {
   position: relative;
   float: left;
@@ -221,6 +234,7 @@ main {
 header {
   display: block;
   max-width: 100%;
+  margin-top: 80px;
 }
 
 /* ARTILE TITLE */
