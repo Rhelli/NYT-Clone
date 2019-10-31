@@ -17,14 +17,14 @@ a {
   font-size: 70px;
 }
 
-#menu {
+.menu {
   width: 220px;
   height: 100%;
   float: left;
 }
 
 /* menu box */
-#menu ul {
+.menu ul {
   box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
   margin: 0;
   padding: 10px 18px;
@@ -38,14 +38,14 @@ a {
   z-index: 1;
 }
 
-#menu li {
+.menu li {
   list-style: none;
   padding: 5px 20px;
   cursor: pointer;
 }
 
 /* gray left arrow */
-#menu svg {
+.menu svg {
   transform: rotate(270deg);
   display: block;
   float: right;
@@ -55,16 +55,16 @@ a {
   width: 6px;
 }
 
-#menu ul li ul {
+.menu ul li ul {
   display: none;
 }
 
-#menu ul li.submenu {
+.menu ul li.submenu {
   position: relative;
 }
 
 /* sub menu box */
-#menu ul li.submenu ul {
+.menu ul li.submenu ul {
   position: absolute;
   left: 185px;
   width: 200px;
@@ -79,7 +79,7 @@ a {
   background: rgb(255, 255, 255);
 }
 
-#menu ul li.submenu ul::before {
+.menu ul li.submenu ul::before {
 	content: "";
 	position: absolute;
 	left: 0px;
@@ -95,7 +95,7 @@ a {
   z-index: 1000000170;
 }
 
-#menu ul li.submenu ul::after {
+.menu ul li.submenu ul::after {
 	content: "";
 	position: absolute;
 	left: 0px;
@@ -111,10 +111,10 @@ a {
   z-index: 1000000170;
 }
 
-#menu ul li.submenu:hover ul {
+.menu ul li.submenu:hover ul {
   display: inline-block
 }
 
-#menu ul li.menu-separator {
+.menu ul li.menu-separator {
   border-bottom: 1px solid rgb(204, 204, 204);
 }
