@@ -48,8 +48,8 @@ body {
 
 .ntm-center {
   position: relative;
-  float: left;
   text-align: center;
+  float: left;
 }
 
 .ntm-center svg {
@@ -60,6 +60,8 @@ body {
 .ntm-right {
   position: relative;
   text-align: right;
+  float: left;
+  padding-right: 3px;
 }
 
 .ntm-right button {
