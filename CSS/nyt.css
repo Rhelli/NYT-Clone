@@ -28,6 +28,10 @@ ul {
 }
 
 /* left menu css */
+.navbar-top {
+  display: none;
+}
+
 .menu {
   width: 220px;
   height: 100%;
