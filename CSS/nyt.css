@@ -32,11 +32,19 @@ ul {
   display: none;
 }
 
+/* show nav bar left */
+.navbar-top:hover > button:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
 .menu {
   width: 220px;
   height: 100%;
   float: left;
 }
+
 
 /* menu box */
 .menu ul {
