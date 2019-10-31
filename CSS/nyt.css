@@ -34,40 +34,48 @@ header {
   display: block;
   max-width: 100%;
 }
+/* ARTILE TITLE */
 .art-title {
-  width: 100%;
-  height: auto;
-}
-.art-title > h1 {
-  max-width: 600px;
-  height: auto;
-  position: relative;
-  margin: 2.35rem auto 1rem auto;
-}
-.art-title > h1 span:first-child {
-  position: absolute;
-  left: 0px;
-  visibility: hidden;
-  max-width: 600px;
-  margin-left: 0;
+  display: block;
+  margin: 0;
   padding: 0;
+  width: 100vw;
+  height: auto;
 }
+  .art-title > h1 {
+    max-width: 600px;
+    width: 600px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 7vw;
+  }
+      /* Ghost Title */
+    .art-title > h1 span:first-child {
+      position: absolute;
+      left: 0px;
+      visibility: hidden;
+      max-width: 600px;
+      margin-left: 0;
+      padding: 0;
+    }
+    /* Visibile Title */
+    .art-title > h1:last-child {
+      display: block;
+      position: relative;
+      width: 387px;
+      font-size: 40px;
+      font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, Serif;
+      font-weight: 700; 
+      font-style: italic;
+      color: #121212;
+      line-height: 1.2;
+      letter-spacing: -0.3px;
+      word-spacing: -1px;
+    }
 
-.art-title > h1:last-child {
-  display: inline-block;
-  position: relative;
-  left: 108px;
-  width: 387px;
-  font-size: 40px;
-  font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, Serif;
-  font-weight: 700; 
-  font-style: italic;
-  color: #121212;
-  line-height: 1.2;
-  letter-spacing: -0.3px;
-  word-spacing: -1px;
-}
-
+/* TITLE, LANDING IMG, FIGCAPTION, AUTHOR, DATE AND SHARE BUTTONS */
 .landing-container {
   max-width: 1200px;
   height: auto;
@@ -83,12 +91,13 @@ header {
     margin-left: auto;
     margin-right: auto;
   }
-  figcaption {
-    display: block;
-    max-width: 900px;
-    padding: 9px 20px 0px 0px;
+    figcaption {
+      display: block;
+      max-width: 900px;
+      padding: 9px 20px 0px 0px;
 
-  }
+    }
+  /* Image Main Blurb */
   figcaption > span:first-child {
     font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, Serif;
     font-size: 0.95em;
@@ -99,6 +108,7 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
+    /* Hidden 'Credit' caption for screenreaders */
     .figcaption-hidden {
       position: absolute;
       width: 1px;
@@ -113,6 +123,8 @@ header {
       color: #888;
       font-size: 0.8em;
     }
+
+    /* AUTHOR, DATE, SHARE BUTTONS */
     .header-end {
       margin-left: auto;
       margin-right: auto;
@@ -135,6 +147,7 @@ header {
           text-decoration-color: #CCC;
         }
       
+      /* Publish Date and Buttons */
       .date-time-buttons {
         display: block;
 
@@ -145,6 +158,8 @@ header {
           font-style: normal;
           font-size: 0.8em;
         }
+        
+        /* Buttons Container */
         .art-start-buttons {
           float: right;
           position: relative;
@@ -155,6 +170,7 @@ header {
             padding: 0px 8px;
             border: none;
           }
+          /* Social Media SVGS */
           .share > svg {
             display: inline-block;
             vertical-align: middle;
@@ -168,6 +184,7 @@ header {
             color: black;
             font-size: 100%;
             text-size-adjust: 100%;
+            cursor: pointer;
           }
           button.share-arrow {
             border: none;
@@ -183,16 +200,53 @@ header {
             border-radius: 100%;
             background-color: #EEE;
           }
-          .more-share {
+          .bookmark {
             border: none;
+            cursor: pointer;
           }
+            .bookmark:hover {
+              opacity: 0.6;
+            }
+          
+          /* Hover effect over buttons */
+          .share > svg:hover, button.share-arrow:hover {
+            background-color: transparent;
+            border: 1px solid #CCC !important;
+          }
+          
           .comments-image {
             width: 38px;
             height: auto;
             cursor: pointer;
             image-rendering: optimizeQuality;
-
+            outline: none;
           }
+            /* Hover effect on comments button */
+            .comments-image:hover {
+              opacity: 0.7;
+            }
+  
+  /* 'One Article Preview' Box */
+  .preview-box {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: auto;
+    border: 1px solid #CCC;
+    font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+    word-wrap: normal;
+    line-height: 1.5;
+    margin-top: 48px;
+    padding: 10px 15px
+  }
+    .preview-box span p {
+      margin: 0;
+    }
+    .preview-box a[href] {
+      color: #326891;
+    }
+    
         
 
       
