@@ -34,17 +34,17 @@ header {
   display: block;
   max-width: 100%;
 }
-#art-title {
+.art-title {
   width: 100%;
   height: auto;
 }
-#art-title > h1 {
+.art-title > h1 {
   max-width: 600px;
   height: auto;
   position: relative;
   margin: 2.35rem auto 1rem auto;
 }
-#art-title > h1 span:first-child {
+.art-title > h1 span:first-child {
   position: absolute;
   left: 0px;
   visibility: hidden;
@@ -53,7 +53,7 @@ header {
   padding: 0;
 }
 
-#art-title > h1:last-child {
+.art-title > h1:last-child {
   display: inline-block;
   position: relative;
   left: 108px;
@@ -91,7 +91,7 @@ header {
   }
   figcaption > span:first-child {
     font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, Serif;
-    font-size: 15px;
+    font-size: 0.95em;
     font-weight: 400;
     font-style: normal;
     color: #666666;
@@ -99,7 +99,7 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
-    #figcaption-hidden {
+    .figcaption-hidden {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -113,21 +113,21 @@ header {
       color: #888;
       font-size: 0.8em;
     }
-    #header-end {
+    .header-end {
       margin-left: auto;
       margin-right: auto;
       max-width: 600px;
       overflow: auto;
     }
-      #author {
+      .author {
         display: block;
         font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
         font-weight: 700; 
         font-style: normal;
         font-size: 0.95em;
-        margin: 38px 0px 22px 0px;
+        margin: 25px 0px 22px 0px;
       }
-        #author a {
+        .author a {
           text-decoration: none;
           color: #333;
           padding-bottom: 20px;
@@ -135,27 +135,27 @@ header {
           text-decoration-color: #CCC;
         }
       
-      #date-time-buttons {
+      .date-time-buttons {
         display: block;
 
       }
-        #date-time-buttons li time {
+        .date-time-buttons li time {
           font-family:'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
           font-weight: 500;
           font-style: normal;
           font-size: 0.8em;
         }
-        #art-start-buttons {
+        .art-start-buttons {
           float: right;
           position: relative;
-          bottom: 20px;
+          bottom: 30px;
         }
-          #art-start-buttons li {
+          .art-start-buttons li {
             float: left;
-            padding: 0px 12px;
+            padding: 0px 8px;
             border: none;
           }
-          #art-start-buttons svg {
+          .share > svg {
             display: inline-block;
             vertical-align: middle;
             width: 28px;
@@ -164,16 +164,34 @@ header {
             background-color: #EEE;
             border: 1px solid #EEE;
             padding: 5px;
-            overflow: hidden;
+            /* overflow: hidden; */
             color: black;
             font-size: 100%;
             text-size-adjust: 100%;
           }
-          #art-start-buttons button {
+          button.share-arrow {
+            border: none;
+            padding: 5px;
+            overflow: hidden;
+            color: black;
+            font-size: 100%;
+            text-size-adjust: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            width: 28px;
+            height: 28px;
+            border-radius: 100%;
+            background-color: #EEE;
+          }
+          .more-share {
             border: none;
           }
-          #art-start-buttons:last-child {
-            
+          .comments-image {
+            width: 38px;
+            height: auto;
+            cursor: pointer;
+            image-rendering: optimizeQuality;
+
           }
         
 
