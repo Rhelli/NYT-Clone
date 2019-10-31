@@ -458,3 +458,46 @@ button.share-arrow:hover {
   margin-top: 48px;
   padding: 10px 15px;
 }
+
+/* ARTICLE */
+article {
+  width: 100vw;
+  height: auto;
+}
+
+/* Article Paragraph Blocks */
+article div div p,
+article div div h3 {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: -6px;
+}
+
+/* Article links styling */
+article a[href] {
+  color: #326891;
+}
+
+/* Theory of Inflation Section */
+.subheader {
+  display: block;
+  max-width: 954px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tif-img {
+  display: block;
+  width: 954px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
