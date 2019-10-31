@@ -5,7 +5,10 @@ html {
   width: 100vw;
   height: auto;
 }
-*, *:before, *:after {
+
+*, 
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -18,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -56,7 +60,7 @@ header {
 /* Ghost Title */
 .art-title > h1 span:first-child {
   position: absolute;
-  left: 0px;
+  left: 0;
   visibility: hidden;
   max-width: 600px;
   margin-left: 0;
@@ -78,14 +82,15 @@ header {
   word-spacing: -1px;
 }
 
+/* TITLE, LANDING IMG, FIGCAPTION, AUTHOR, DATE AND SHARE BUTTONS */
 .landing-container {
-  /* TITLE, LANDING IMG, FIGCAPTION, AUTHOR, DATE AND SHARE BUTTONS */
   max-width: 1200px;
   height: auto;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
 }
+
 .landing-container > img {
   width: 100vw;
   max-width: 1200px;
@@ -94,10 +99,11 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 figcaption {
   display: block;
   max-width: 900px;
-  padding: 9px 20px 0px 0px;
+  padding: 9px 20px 0 0;
 }
 
 /* Image Main Blurb */
@@ -114,19 +120,20 @@ figcaption > span:first-child {
 
 /* Hidden 'Credit' caption for screenreaders */
 .figcaption-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
 figcaption > span:last-child > span:last-child {
   font-family: inherit;
   font-weight: inherit;
   font-style: inherit;
   color: #888;
   font-size: 0.8em;
-  }
+}
 
 /* AUTHOR, DATE, SHARE BUTTONS */
 .header-end {
@@ -135,14 +142,16 @@ figcaption > span:last-child > span:last-child {
   max-width: 600px;
   overflow: auto;
 }
+
 .author {
   display: block;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-weight: 700;
   font-style: normal;
   font-size: 0.95em;
-  margin: 25px 0px 22px 0px;
+  margin: 25px 0 22px 0;
 }
+
 .author a {
   text-decoration: none;
   color: #333;
@@ -155,6 +164,7 @@ figcaption > span:last-child > span:last-child {
 .date-time-buttons {
   display: block;
 }
+
 .date-time-buttons li time {
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-weight: 500;
@@ -168,9 +178,10 @@ figcaption > span:last-child > span:last-child {
   position: relative;
   bottom: 30px;
 }
+
 .art-start-buttons li {
   float: left;
-  padding: 0px 8px;
+  padding: 0 8px;
   border: none;
 }
 
@@ -189,6 +200,7 @@ figcaption > span:last-child > span:last-child {
   text-size-adjust: 100%;
   cursor: pointer;
 }
+
 button.share-arrow {
   border: none;
   padding: 5px;
@@ -203,14 +215,16 @@ button.share-arrow {
   border-radius: 100%;
   background-color: #eee;
 }
+
 .bookmark {
   border: none;
   cursor: pointer;
 }
+
 .bookmark:hover {
   opacity: 0.6;
 }
-       
+  
 /* Hover effect over buttons */
 .share > svg:hover, button.share-arrow:hover {
   background-color: transparent;
@@ -224,12 +238,12 @@ button.share-arrow {
   image-rendering: optimizeQuality;
   outline: none;
 }
-          
+         
 /* Hover effect on comments button */
 .comments-image:hover {
   opacity: 0.7;
 }
-  
+
 /* 'One Article Preview' Box */
 .preview-box {
   display: block;
@@ -244,13 +258,11 @@ button.share-arrow {
   margin-top: 48px;
   padding: 10px 15px;
 }
+
 .preview-box span p {
   margin: 0;
 }
+
 .preview-box a[href] {
   color: #326891;
 }
-    
-        
-
-      
