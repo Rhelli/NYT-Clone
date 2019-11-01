@@ -27,6 +27,10 @@ ul {
   padding-inline-start: 0;
 }
 
+h4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
 
 /* footer-navbar */
 .footer-div {
@@ -43,6 +47,13 @@ ul {
   height: 26.484px;
 }
 
+.footer-div a {
+  line-height: 16px;
+}
+
+.footer-div a:hover {
+  text-decoration: underline;
+}
 
 .logo-footer {
   width: 195px;
@@ -74,7 +85,7 @@ ul {
 .footer-column-2 {
   width: 19%;
   float: right;
-  padding: 15px;
+  padding: 5px 15px;
   border-left: 1px solid rgb(204, 204, 204);
 }
 
@@ -130,7 +141,7 @@ ul {
   font-size: 14px;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   height: 23px;
   margin-top: 0;
 }
