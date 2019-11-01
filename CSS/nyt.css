@@ -90,7 +90,6 @@ ul {
   float: right;
   height: 4px;
   margin-top: -14px;
-  transform: rotate(270deg);
   width: 3px;
 }
 
@@ -498,4 +497,42 @@ button.share-arrow:hover {
   line-height: 1.5;
   margin-top: 48px;
   padding: 10px 15px;
+}
+
+
+.bottom-nav {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0px auto;
+  width: 100vw;
+  z-index: 190;
+  padding: 0px 20px;
+  /*height: 55px;*/
+  border-top:1px solid black;
+
+  background: #ddd;
+}
+
+.bnav-center {
+  width: 65vw;
+  margin: 0px auto;
+  display: relative;
+  text-align: center;
+  
+  /*background: rebeccapurple;*/
+}
+
+.bnav-right {
+  width: 32vw;
+  display: relative;
+  float: right;
+  text-align: right;
+  
+  /*background: orange*/
+}
+
+.bnav-rigth svg {
+
 }
