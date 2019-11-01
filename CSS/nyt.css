@@ -466,8 +466,8 @@ article {
 }
 
 /* Article Paragraph Blocks */
-article div div p,
-article div div h3 {
+.art-first-text div p,
+.art-first-text div h3 {
   display: block;
   position: relative;
   margin-left: auto;
@@ -486,18 +486,98 @@ article a[href] {
 
 /* Theory of Inflation Section */
 .subheader {
+  font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, serif;
   display: block;
+  position: relative;
   max-width: 954px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.tif-img {
+.subheader div h2 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.subheader div p {
+  font-size: 0.9rem;
+  line-height: 1.125em;
+  font-weight: 400;
+  color: #666;
+  margin: 0;
+}
+
+.tif-container {
   display: block;
-  width: 954px;
+  position: relative;
+  overflow: hidden;
+  width: 954.450px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
+.tif-subcontainer {
+  display: block;
+}
+
+.tif-subcontainer img {
+  width: 100%;
+  height: auto;
+}
+
+.tif-subcontainer > div {
+  position: absolute;
+  width: 13.8rem;
+  font-family: 'NYTFranklin';
+  font-size: 0.85em;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.tif-subcontainer > div > p > span {
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.tif-first-row {
+  top: 18.05%;
+}
+
+.tif-second-row {
+  top: 65.89%;
+}
+
+.a,
+.e {
+  left: 0.25%;
+}
+
+.b,
+.f {
+  left: 25.7%;
+}
+
+.c,
+.g {
+  left: 51.15%;
+}
+
+.d,
+.h {
+  left: 76.59%;
+}
+
+.tif-second-row {
+  top: 65.89%;
+}
+
+
+
+
 
 
