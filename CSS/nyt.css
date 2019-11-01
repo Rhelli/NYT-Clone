@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   width: 100vw;
   height: auto;
+  overflow-x: hidden;
 }
 
 *,
@@ -119,7 +120,7 @@ ul {
 
 /* BOTTOM NAV */
 .bottom-nav {
-  display: block;
+  display: none;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -794,6 +795,31 @@ article a[href] {
   display: inline-block;
   font-size: 1em;
 }
+
+/* END OF ARTICLE SECTION */
+.art-end {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin-top: 20px;
+}
+
+.art-end div p {
+  display: block;
+  max-width: 600px;
+  width: calc(100% -40px);
+  width: 600px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.75em;
+  line-height: 1.1rem;
+  color: #666;
+  margin: 0px auto 1em;
+}
+
+.art-end div p a {
+  color: #666;
+}
+
 
 
 
