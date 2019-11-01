@@ -513,6 +513,7 @@ article a[href] {
   margin-right: 7px;
 }
 
+/* Main Container */
 .tif-container {
   display: block;
   position: relative;
@@ -524,6 +525,7 @@ article a[href] {
   overflow: hidden;
 }
 
+/* Image and Text Container */
 .tif-subcontainer {
   display: block;
 }
@@ -533,6 +535,7 @@ article a[href] {
   height: auto;
 }
 
+/* Text Divs */
 .tif-subcontainer > div {
   position: absolute;
   width: 13.8rem;
@@ -554,6 +557,7 @@ article a[href] {
   font-size: 0.85em;
 }
 
+/* Theory of Inflation Text Div Alignment */
 .tif-first-row {
   top: 24.82%;
 }
@@ -581,6 +585,37 @@ article a[href] {
 .h {
   left: 76.59%;
 }
+
+/* Theory of Inflation Author Footer */
+.tif-footer {
+  display: block;
+  margin-bottom: 0;
+  max-width: 945px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tif-footer::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 0.5px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.tif-footer > div {
+  display: block;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  font-size: 0.88em;
+}
+
+.tif-footer div p {
+  margin: 0;
+}
+
 
 
 
