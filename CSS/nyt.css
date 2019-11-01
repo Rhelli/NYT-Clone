@@ -53,7 +53,6 @@ ul {
   float: left;
 }
 
-
 /* menu box */
 .menu ul {
   box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
@@ -234,9 +233,7 @@ ul {
   left: 0;
   right: 0;
   padding: 0;
-  margin: 0px auto;
-  width: 100%;
-  max-width: 1605px;
+  width: 100vw;
   z-index: 100;
   height: 43px;
   border: none;
@@ -275,7 +272,7 @@ ul {
   text-align: right;
   float: right;
   padding-top: 6px;
-  padding-right: 18px;
+  padding-right: 40px;
 }
 
 .ntm-right button {    
