@@ -489,9 +489,11 @@ article a[href] {
   font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, serif;
   display: block;
   position: relative;
-  max-width: 954px;
+  max-width: 955px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 31px;
 }
 
 .subheader div h2 {
@@ -499,25 +501,27 @@ article a[href] {
   line-height: 1.5em;
   font-weight: 700;
   color: #000;
-  margin-bottom: 2px;
+  margin-bottom: 2px
 }
 
 .subheader div p {
-  font-size: 0.9rem;
+  font-size: 0.98rem;
   line-height: 1.125em;
-  font-weight: 400;
+  font-weight: 300;
   color: #666;
   margin: 0;
+  margin-right: 7px;
 }
 
 .tif-container {
   display: block;
   position: relative;
   overflow: hidden;
-  width: 954.450px;
+  max-width: 954.450px;
+  width: calc(100% - 40px);
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 12px;
+  overflow: hidden;
 }
 
 .tif-subcontainer {
@@ -525,7 +529,7 @@ article a[href] {
 }
 
 .tif-subcontainer img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -533,10 +537,16 @@ article a[href] {
   position: absolute;
   width: 13.8rem;
   font-family: 'NYTFranklin';
-  font-size: 0.85em;
-  line-height: 17px;
+  font-size: 0.83em;
   font-weight: 300;
   color: #000;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+.tif-subcontainer > div > p {
+  margin: 0;
 }
 
 .tif-subcontainer > div > p > span {
@@ -545,35 +555,31 @@ article a[href] {
 }
 
 .tif-first-row {
-  top: 18.05%;
+  top: 24.82%;
 }
 
 .tif-second-row {
-  top: 65.89%;
+  top: 73.43%;
 }
 
 .a,
 .e {
-  left: 0.25%;
+  left: 0.043%;
 }
 
 .b,
 .f {
-  left: 25.7%;
+  left: 25.56%;
 }
 
 .c,
 .g {
-  left: 51.15%;
+  left: 51.08%;
 }
 
 .d,
 .h {
   left: 76.59%;
-}
-
-.tif-second-row {
-  top: 65.89%;
 }
 
 
