@@ -648,7 +648,6 @@ article a[href] {
 .embed-container figcaption span:last-child {
   display: block;
   font-size: 1em;
-
 }
 
 .embed-container figcaption span:last-child span:first-child {
@@ -660,6 +659,59 @@ article a[href] {
   border: 0;
   overflow: hidden;
 }
+
+/* Article Image #3 */
+.img3-container {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.img3-container div {
+  width: 720px;
+  max-width: calc(100% - 40px);
+  height: auto;
+  margin: 58px auto 0 auto;
+}
+
+.img3-container div img {
+  width: 100%;
+  height: auto;
+}
+
+.img3-container figcaption {
+  display: block;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-bottom: 45px;
+}
+
+.img3-container figcaption span:first-child {
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  margin-right: 7px;
+  color: #666;
+}
+
+.img3-container figcaption span:last-child span:first-child {
+  position: absolute;
+  width: 1px;
+  height: 2px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+.img3-container figcaption span:last-child {
+  display: inline-block;
+  font-size: 1em;
+}
+
 
 
 
