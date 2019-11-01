@@ -22,11 +22,6 @@ body {
   padding: 0;
 }
 
-p {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -95,6 +90,7 @@ ul {
   float: right;
   height: 4px;
   margin-top: -14px;
+  transform: rotate(270deg);
   width: 3px;
 }
 
@@ -120,51 +116,6 @@ ul {
   border-color: rgb(204, 204, 204);
   box-shadow: rgba(0, 0, 0, 0.09) -1px 4px 6px;
   background: rgb(255, 255, 255);
-}
-
-/* BOTTOM NAV */
-.bottom-nav {
-  display: block;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0 auto;
-  width: 100vw;
-  z-index: 190;
-  padding: 0 20px;
-  height: 55px;
-  border-top: 1px solid black;
-  font-size: 15px;
-  line-height: 17px;
-  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
-  font-style: normal;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
-}
-
-.bnav-center {
-  position: relative;
-  float: left;
-  padding-top: 20px;
-  margin-left: 25%;
-}
-
-.bnav-right {
-  position: relative;
-  float: right;
-  padding-top: 20px;
-  padding-right: 30px;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.bnav-right p {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.bnav-right svg {
-  transform: rotate(270deg);
 }
 
 .menu ul li.submenu ul::before {
