@@ -22,6 +22,11 @@ body {
   padding: 0;
 }
 
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -509,30 +514,38 @@ button.share-arrow:hover {
   width: 100vw;
   z-index: 190;
   padding: 0px 20px;
-  /*height: 55px;*/
+  height: 55px;
   border-top:1px solid black;
-
-  background: #ddd;
+  font-size: 15px;
+  line-height: 17px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(51, 51, 51);
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
 }
 
 .bnav-center {
-  width: 65vw;
-  margin: 0px auto;
-  display: relative;
-  text-align: center;
-  
-  /*background: rebeccapurple;*/
+  position: relative;
+  float: left;
+  padding-top: 20px;
+  margin-left: 25%;
 }
 
 .bnav-right {
-  width: 32vw;
-  display: relative;
+  position: relative;
   float: right;
-  text-align: right;
-  
-  /*background: orange*/
+  padding-top: 20px;
+  padding-right: 30px;;
+  font-weight: 700;
+  font-size: 13px;
 }
 
-.bnav-rigth svg {
+.bnav-right p {
+  display: inline-block;
+  padding-right: 20px;;
+}
 
+.bnav-right svg {
+  transform: rotate(270deg);
 }
