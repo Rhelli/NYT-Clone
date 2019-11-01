@@ -66,6 +66,7 @@ ul {
   font-style: normal;
   border-radius: 3px;
   border-right: 1px solid rgb(204, 204, 204);
+  text-align: left;
   z-index: 150;
 }
 
@@ -75,15 +76,22 @@ ul {
   cursor: pointer;
 }
 
+.menu li:hover {
+  list-style: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  background: #edf8ff;
+}
+
 /* gray left arrow */
 .menu svg {
   transform: rotate(270deg);
   display: block;
   float: right;
-  height: 8px;
-  margin-top: -17px;
+  height: 4px;
+  margin-top: -14px;
   transform: rotate(270deg);
-  width: 6px;
+  width: 3px;
 }
 
 .menu ul li ul {
@@ -114,15 +122,15 @@ ul {
 	content: "";
 	position: absolute;
 	left: 0px;
-	top: 25px;
+	top: 23px;
 	width: 0;
 	height: 0;
-	border: 13px solid transparent;
+	border: 15px solid transparent;
   border-right-color: rgb(204, 204, 204);
   border-left: 0;
   border-style: solid;
-	margin-top: -13px;
-  margin-left: -13px;
+	margin-top: -15px;
+  margin-left: -15px;
   z-index: 170;
 }
 
@@ -130,15 +138,15 @@ ul {
 	content: "";
 	position: absolute;
 	left: 0px;
-	top: 25px;
+	top: 23px;
 	width: 0;
 	height: 0;
-	border: 12px solid transparent;
+	border: 14px solid transparent;
   border-right-color: rgb(255, 255, 255);
   border-left: 0;
   border-style: solid;
-	margin-top: -12px;
-  margin-left: -12px;
+	margin-top: -14px;
+  margin-left: -14px;
   z-index: 170;
 }
 
@@ -201,7 +209,6 @@ ul {
 
 .ntm-left svg {
   width: 16px;
-  padding-right: 22px;
   box-sizing: content-box;
 }
 
