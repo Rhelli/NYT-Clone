@@ -18,7 +18,7 @@ Basic HTML5, CSS and github was used on this collaborative project.
 
 Our project can be found in https://github.com/Rhelli/NYT-Clone/tree/development
 
-### ✨ [Live Demo](https://raw.githack.com/Rhelli/NYT-Clone/tree/development)
+### ✨ [Live Demo](https://raw.githack.com/Rhelli/NYT-Clone/development/index.html)
 <a href="/Assets/Img/nytimes.com-clone-animation.gif" target="_blank">
     <img alt="page animation" src="/Assets/Img/nytimes.com-clone-animation.gif" />
 </a>
