@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   width: 100vw;
   height: auto;
+  overflow-x: hidden;
 }
 
 *,
@@ -39,6 +40,33 @@ h4 {
   margin: 0 auto;
   padding-top: 20px;
   border-top: 5px double rgb(226, 226, 226);
+  width: 100vw;
+  z-index: 190;
+  padding: 0 20px;
+  height: 55px;
+  border-top: 1px solid black;
+  font-size: 15px;
+  line-height: 17px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+}
+
+.bnav-center {
+  position: relative;
+  float: left;
+  padding-top: 10px;
+  margin-left: 25%;
+}
+
+.bnav-right {
+  position: relative;
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .footer-div svg {
@@ -170,4 +198,271 @@ h4 {
   font-style: normal;
   text-decoration-line: none;
   margin: 0 5px;
+}
+/* 'One Article Preview' Box */
+.preview-box {
+  display: block;
+  position: relative;
+  width: 450px;
+  height: auto;
+  border: 1px solid #ccc;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.95em;
+  word-wrap: normal;
+  line-height: 1.5;
+  margin-top: 48px;
+  padding: 10px 15px;
+}
+
+/* ARTICLE */
+article {
+  width: 100vw;
+  height: auto;
+}
+
+/* Article Paragraph Blocks */
+.art-text div p,
+.art-text div h3 {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: -6px;
+}
+
+/* Article links styling */
+article a[href] {
+  color: #326891;
+}
+
+/* Theory of Inflation Section */
+.subheader {
+  font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  position: relative;
+  max-width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 31px;
+}
+
+.subheader div h2 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2px
+}
+
+.subheader div p {
+  font-size: 0.98rem;
+  line-height: 1.125em;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+  margin-right: 7px;
+}
+
+/* Main Container */
+.tif-container {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 954.450px;
+  width: calc(100% - 40px);
+  height: auto;
+  margin: 0 auto 12px;
+  overflow: hidden;
+}
+
+/* Image and Text Container */
+.tif-subcontainer {
+  display: block;
+}
+
+.tif-subcontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text Divs */
+.tif-subcontainer > div {
+  position: absolute;
+  width: 13.8rem;
+  font-family: 'NYTFranklin';
+  font-size: 0.83em;
+  font-weight: 300;
+  color: #000;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+.tif-subcontainer > div > p {
+  margin: 0;
+}
+
+.tif-subcontainer > div > p > span {
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+/* Theory of Inflation Text Div Alignment */
+.tif-first-row {
+  top: 24.82%;
+}
+
+.tif-second-row {
+  top: 73.43%;
+}
+
+.a,
+.e {
+  left: 0.043%;
+}
+
+.b,
+.f {
+  left: 25.56%;
+}
+
+.c,
+.g {
+  left: 51.08%;
+}
+
+.d,
+.h {
+  left: 76.59%;
+}
+
+/* Theory of Inflation Author Footer */
+.tif-footer {
+  display: block;
+  margin-bottom: 0;
+  max-width: 945px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tif-footer::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 0.5px;
+  margin: 0 0 10px;
+  background-color: #000;
+}
+
+.tif-footer > div {
+  display: block;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  font-size: 0.88em;
+}
+
+.tif-footer div p {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+/* Youtube Embed */
+.embed-container {
+  max-width: 600px;
+  height: auto;
+  margin: 43px auto;
+}
+
+.embed-container div:first-child {
+  display: block;
+  width: 100%;
+  height: 357.5px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.embed-container div:first-child iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.embed-container figcaption span:first-child {
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  margin-right: 7px;
+  color: #666;
+}
+
+.embed-container figcaption span:last-child {
+  display: block;
+  font-size: 1em;
+}
+
+.embed-container figcaption span:last-child span:first-child {
+  position: absolute;
+  width: 1px;
+  height: 2px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+/* Article Image #3 */
+.img3-container {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.img3-container div {
+  width: 720px;
+  max-width: calc(100% - 40px);
+  height: auto;
+  margin: 58px auto 0 auto;
+}
+
+.img3-container div img {
+  width: 100%;
+  height: auto;
+}
+
+.img3-container figcaption {
+  display: block;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-bottom: 45px;
+}
+
+.img3-container figcaption span:first-child {
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  margin-right: 7px;
+  color: #666;
+}
+
+.img3-container figcaption span:last-child span:first-child {
+  position: absolute;
+  width: 1px;
+  height: 2px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+.img3-container figcaption span:last-child {
+  display: inline-block;
+  font-size: 1em;
 }
