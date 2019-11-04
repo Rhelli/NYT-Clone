@@ -120,7 +120,7 @@ ul {
 
 /* BOTTOM NAV */
 .bottom-nav {
-  display: none;
+  display: block;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -866,8 +866,8 @@ article a[href] {
 .art-end-toolkit-buttons {
   display: block;
   position: relative;
-  left: 440px;
-  bottom: 48px;
+  left: 422px;
+  bottom: 45px;
 }
 
 .art-end-toolkit-buttons > li {
