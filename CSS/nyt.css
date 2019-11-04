@@ -61,7 +61,8 @@ p {
 }
 
 /* MENU BOX */
-.menu ul {
+.menu > ul {
+  height: 100vh;
   box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
   margin: 0;
   padding: 10px 18px;
@@ -1003,7 +1004,7 @@ article a[href] {
   clear: left;
   margin: 0 auto;
   padding-top: 20px;
-  width: 100vw;
+  width: 1200px;
   z-index: 190;
   padding: 0 20px;
   font-size: 15px;
