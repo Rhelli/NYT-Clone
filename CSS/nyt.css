@@ -1188,12 +1188,6 @@ article a[href] {
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
 }
 
-.bnav-center {
-  position: relative;
-  float: left;
-  margin-left: 25%;
-}
-
 .bnav-right {
   position: relative;
   float: right;
