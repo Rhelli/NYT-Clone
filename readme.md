@@ -20,7 +20,7 @@ Our project can be found in https://github.com/Rhelli/NYT-Clone/tree/development
 
 ### ✨ [Live Demo](https://raw.githack.com/Rhelli/NYT-Clone/tree/development)
 <a href="https://raw.githack.com/firmoholanda/mint.com-clone/tree/development" target="_blank">
-    <img alt="page animation" src="" />
+    <img alt="page animation" src="https://github.com/Rhelli/NYT-Clone/tree/development/Assets/Img/nytimes.com-clone-animation" />
 </a>
 
 ## 🤝 Contributing
