@@ -120,7 +120,7 @@ ul {
 
 /* BOTTOM NAV */
 .bottom-nav {
-  display: block;
+  display: none;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -502,6 +502,7 @@ button.share-arrow {
 .bookmark {
   border: none;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .bookmark:hover {
@@ -794,6 +795,84 @@ article a[href] {
 .img3-container figcaption span:last-child {
   display: inline-block;
   font-size: 1em;
+}
+
+/* END OF ARTICLE SECTION */
+.art-end {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin-top: 20px;
+}
+
+.art-end div p {
+  display: block;
+  max-width: 600px;
+  width: calc(100% -40px);
+  width: 600px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.75em;
+  line-height: 1.1rem;
+  color: #666;
+  margin: 0px auto 1em;
+}
+
+.art-end div p a {
+  color: #666;
+}
+
+.art-end div p a:hover {
+  text-decoration: none;
+}
+
+.art-end-buttons {
+  max-width: 600px;
+  width: calc(100% - 40px);
+  margin: 1.5rem auto 2rem;
+  padding: 0;
+  border: 0;
+}
+
+.art-end-buttons div:first-child {
+  display: inline-block;
+  width: 350px;
+  padding: 0 1rem 0 0;
+}
+
+.art-end-buttons > div:first-child > button {
+  width: 100%;
+  background-color: #567b95;
+  color: white;
+  display: block;
+  font-family: 'NYTFranklin', Arial, Helvetica, sans-serif;
+  font-size: 0.8125em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #326981;
+  border-radius: 3px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.art-end-buttons > div:first-child > button:hover {
+  background-color: #326981;
+  transition: background-color 0.6s ease 0s;
+
+}
+
+.art-end-toolkit-buttons {
+  display: block;
+  position: relative;
+  left: 440px;
+  bottom: 48px;
+}
+
+.art-end-toolkit-buttons > li {
+  display: inline-block;
+  padding: 0 7px;
 }
 
 /* footer-navbar */
