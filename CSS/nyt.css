@@ -838,6 +838,161 @@ article a[href] {
   padding: 0 7px;
 }
 
+/* MORE ARTICLES SECTION */
+.more-art {
+  display: block;
+  width: 1300px;
+  height: auto;
+  padding: 0 20px;
+  margin: 32px auto 0;
+}
+
+.more-art ul {
+  display: block;
+  max-width: 1200px;
+  max-height: 600px;
+  margin: 12px auto 0;
+  padding: 0;
+}
+
+
+.more-art-img {
+  padding: 0 !important;
+}
+
+/* Section Title */
+.more-art div:first-child {
+  padding: 40px 0 16px;
+  line-height: 140%;
+  border-top: 1px solid #e2e2e2;
+}
+
+.more-art div:first-child h4 {
+  display: block;
+  font-family: 'NYTFranklin', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Section Container */
+.more-art-story {
+  display: block;
+  width: 33%;
+  padding: 0 10px;
+  margin: 12px auto 16px;
+  float: left;
+  text-align: left;
+}
+
+/* Section Links */
+.more-art-story a {
+  text-decoration: none;
+}
+
+.more-art-story a:hover *:not(figcaption) {
+  color: #121212 !important;
+}
+
+/* Image and Cpation Container */
+.more-art-story a div:first-child {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.more-art-story a div:first-child figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+.more-art-story a div figure div:first-child {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Image */
+.more-art-story a div:first-child figure div:first-child img {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+/* .voyager-img {
+  height: 240.531px !important;
+} */
+
+.voyager-text {
+  text-align: left !important;
+}
+
+/* Image Caption */
+.more-art-story a div:first-child figure div figcaption {
+  display: block;
+  font-family: 'NYTFranklin', Arial, Helvetica, sans-serif;
+  text-align: right;
+  color: #999;
+  font-size: 0.6em;
+  line-height: 0.8em;
+  min-height: 12px;
+  margin: 0 5px 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Story Text Container */
+.more-art-story a div:last-child {
+  display: block;
+  padding: 0 10px;
+  color: #333;
+}
+
+/* Article Title */
+.more-art-story a div:last-child h3 {
+  display: block;
+  font-family: 'NYTCheltenham', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.75em;
+  font-weight: 400;
+  line-height: 125%;
+  margin-top: 8px;
+}
+
+/* Article Paragraph */
+.more-art-story a div:last-child p {
+  font-family: 'NYTImperial', Georgia, 'Times New Roman', Times, serif;
+  line-height: 145%;
+  color: #555;
+  font-size: 1em;
+  margin-top: 16px;
+  border: none;
+}
+
+/* Article Author & Date */
+.more-art-story a div:last-child h4 {
+  display: block;
+  font-family: 'NYTFranklin', Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #555;
+  line-height: 140%;
+  margin: 16px 0 8px;
+  padding: 0;
+  border: 0;
+}
+
+.middle-art {
+  border-right: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+}
+
 /* footer-navbar */
 .footer-navbar {
   padding-top: 30px;
@@ -845,6 +1000,7 @@ article a[href] {
 
 .footer-div {
   display: block;
+  clear: left;
   margin: 0 auto;
   padding-top: 20px;
   width: 100vw;
