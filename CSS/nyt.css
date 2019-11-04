@@ -60,7 +60,7 @@ p {
   float: left;
 }
 
-/* menu box */
+/* MENU BOX */
 .menu ul {
   box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
   margin: 0;
@@ -108,7 +108,7 @@ p {
   position: relative;
 }
 
-/* sub menu box */
+/* SUBMENU BOX */
 .menu ul li.submenu ul {
   position: absolute;
   left: 185px;
@@ -122,50 +122,6 @@ p {
   border-color: rgb(204, 204, 204);
   box-shadow: rgba(0, 0, 0, 0.09) -1px 4px 6px;
   background: rgb(255, 255, 255);
-}
-
-/* BOTTOM NAV */
-.bottom-nav {
-  display: block;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0 auto;
-  width: 100vw;
-  z-index: 190;
-  padding: 10px 20px;
-  height: 55px;
-  border-top: 1px solid black;
-  font-size: 15px;
-  line-height: 17px;
-  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
-  font-style: normal;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
-}
-
-.bnav-center {
-  position: relative;
-  float: left;
-  margin-left: 25%;
-}
-
-.bnav-right {
-  position: relative;
-  float: right;
-  padding-top: 10px;
-  padding-right: 30px;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.bnav-right p {
-  display: inline-block;
-  padding-right: 20px;
-}
-
-.bnav-right svg {
-  transform: rotate(270deg);
 }
 
 .menu ul li.submenu ul::before {
@@ -208,14 +164,7 @@ p {
   border-bottom: 1px solid rgb(204, 204, 204);
 }
 
-.preview-box span p {
-  margin: 0;
-}
-
-.preview-box a[href] {
-  color: #326891;
-}
-
+/* TOP NAVBAR */
 .nav {
   display: inline-block;
   width: calc(100%/3);
@@ -324,6 +273,7 @@ header {
   display: block;
   max-width: 100%;
   margin-top: 80px;
+  margin-bottom: 25px;
 }
 
 /* ARTILE TITLE */
@@ -549,6 +499,14 @@ button.share-arrow:hover {
   padding: 10px 15px;
 }
 
+.preview-box span p {
+  margin: 0;
+}
+
+.preview-box a[href] {
+  color: #326891;
+}
+
 /* ARTICLE */
 article {
   width: 100vw;
@@ -566,7 +524,7 @@ article {
   max-width: 600px;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  margin-bottom: -6px;
+  margin-bottom: 0.9375rem;
 }
 
 /* Article links styling */
@@ -1057,4 +1015,48 @@ article a[href] {
   font-style: normal;
   text-decoration-line: none;
   margin: 0 5px;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100vw;
+  z-index: 190;
+  padding: 10px 20px;
+  height: 55px;
+  border-top: 1px solid black;
+  font-size: 15px;
+  line-height: 17px;
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+}
+
+.bnav-center {
+  position: relative;
+  float: left;
+  margin-left: 25%;
+}
+
+.bnav-right {
+  position: relative;
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.bnav-right p {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.bnav-right svg {
+  transform: rotate(270deg);
 }
