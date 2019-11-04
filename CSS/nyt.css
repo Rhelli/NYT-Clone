@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   width: 100vw;
   height: auto;
+  overflow-x: hidden;
 }
 
 *,
@@ -140,14 +141,14 @@ ul {
 .bnav-center {
   position: relative;
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-left: 25%;
 }
 
 .bnav-right {
   position: relative;
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 30px;
   font-weight: 700;
   font-size: 13px;
