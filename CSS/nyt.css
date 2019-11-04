@@ -29,6 +29,11 @@ ul {
   padding-inline-start: 0;
 }
 
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 .menu-bnt {
   border: none;
   background: #fff;
@@ -128,7 +133,7 @@ ul {
   margin: 0 auto;
   width: 100vw;
   z-index: 190;
-  padding: 0 20px;
+  padding: 10px 20px;
   height: 55px;
   border-top: 1px solid black;
   font-size: 15px;
@@ -142,7 +147,6 @@ ul {
 .bnav-center {
   position: relative;
   float: left;
-  padding-top: 10px;
   margin-left: 25%;
 }
 
@@ -883,17 +887,17 @@ article a[href] {
 
 .footer-div {
   display: block;
-  height: 470px;
   margin: 0 auto;
   padding-top: 20px;
   width: 100vw;
   z-index: 190;
   padding: 0 20px;
-  height: 55px;
   font-size: 15px;
   line-height: 17px;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
+  height: 450px;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .footer-div:before {
@@ -1040,10 +1044,10 @@ article a[href] {
 .copyright {
   height: auto;
   width: 100vw;
-  display: block;
-  border-top: 1px solid rgb(226, 226, 226);
+  display: block;  
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
+
 }
 
 .copyright > a {
