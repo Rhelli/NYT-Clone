@@ -21,6 +21,7 @@ body {
   text-align: left;
   margin: 0;
   padding: 0;
+  margin-bottom: 65px;
 }
 
 ul {
@@ -876,23 +877,34 @@ article a[href] {
 }
 
 /* footer-navbar */
+.footer-navbar {
+  padding-top: 30px;
+}
+
 .footer-div {
   display: block;
   height: 470px;
   margin: 0 auto;
   padding-top: 20px;
-  border-top: 5px double rgb(226, 226, 226);
   width: 100vw;
   z-index: 190;
   padding: 0 20px;
   height: 55px;
-  border-top: 1px solid black;
   font-size: 15px;
   line-height: 17px;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+}
+
+.footer-div:before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  box-sizing: content-box;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
 }
 
 .bnav-center {
@@ -1026,14 +1038,15 @@ article a[href] {
 }
 
 .copyright {
-  width: 1124px;
-  margin: 0 auto;
+  height: auto;
+  width: 100vw;
+  display: block;
   border-top: 1px solid rgb(226, 226, 226);
   text-align: center;
   padding-top: 15px;
 }
 
-.copyright a {
+.copyright > a {
   color: rgb(153, 153, 153);
   font-size: 12px;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
