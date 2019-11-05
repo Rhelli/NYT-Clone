@@ -96,7 +96,6 @@ p {
   float: right;
   height: 4px;
   margin-top: -14px;
-  transform: rotate(270deg);
   width: 3px;
 }
 
@@ -167,7 +166,7 @@ p {
 /* TOP NAVBAR */
 .nav {
   display: inline-block;
-  width: calc(100%/3);
+  width: calc(100% / 3);
   height: 42px;
 }
 
@@ -238,7 +237,6 @@ p {
   font-weight: 700;
   border-radius: 3px;
   cursor: pointer;
-  font-weight: 700;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
   letter-spacing: 0.05em;
@@ -254,7 +252,6 @@ p {
   font-weight: 700;
   border-radius: 3px;
   cursor: pointer;
-  font-weight: 700;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, Serif;
   font-style: normal;
   letter-spacing: 0.05em;
@@ -569,7 +566,6 @@ article a[href] {
   width: calc(100% - 40px);
   height: auto;
   margin: 0 auto 12px;
-  overflow: hidden;
 }
 
 /* Image and Text Container */
@@ -586,7 +582,7 @@ article a[href] {
 .tif-subcontainer > div {
   position: absolute;
   width: 13.8rem;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
   font-size: 0.83em;
   font-weight: 300;
   color: #000;
@@ -770,7 +766,7 @@ article a[href] {
 .art-end div p {
   display: block;
   max-width: 600px;
-  width: calc(100% -40px);
+  width: calc(100% - 40px);
   width: 600px;
   font-family: 'NYTFranklin', Georgia, 'Times New Roman', Times, serif;
   font-size: 0.75em;
@@ -852,7 +848,6 @@ article a[href] {
   margin: 12px auto 0;
   padding: 0;
 }
-
 
 .more-art-img {
   padding: 0 !important;
@@ -1000,7 +995,6 @@ article a[href] {
   display: block;
   clear: left;
   margin: 0 auto;
-  padding-top: 20px;
   width: 1200px;
   z-index: 190;
   padding: 0 20px;
@@ -1178,21 +1172,6 @@ article a[href] {
   font-style: normal;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
-}
-
-.bnav-center {
-  position: relative;
-  float: left;
-  margin-left: 25%;
-}
-
-.bnav-right {
-  position: relative;
-  float: right;
-  padding-top: 10px;
-  padding-right: 30px;
-  font-weight: 700;
-  font-size: 13px;
 }
 
 .bnav-right p {
